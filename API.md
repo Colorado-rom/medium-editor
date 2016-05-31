@@ -38,6 +38,7 @@
   - [`checkContentChanged(editable)`](#checkContentChangededitable)
   - [`delay(fn)`](#delayfn)
   - [`getExtensionByName(name)`](#getextensionbynamename)
+  - [`resetContent(element)`](#resetcontentelement)
   - [`serialize()`](#serialize)
   - [`setContent(html, index)`](#setcontenthtml-index)
 - [Static Functions/Properties](#static-functionsproperties)
@@ -448,6 +449,17 @@ Get a reference to an extension with the specified name.
 1. _**name** (`String`)_:
 
   * The name of the extension to retrieve (ie `toolbar`).
+
+***
+### `resetContent(element)`
+
+Reset the content of all editor **elements** to their value at the time they were added to the editor.  If a specific editor **element** is provided, only the content of that element will be reset.
+
+**Arguments**
+
+1. _**element** (`DOMElement`)_: _**OPTIONAL**_
+
+  * Specific editor **element** to reset the content of.
 
 ***
 ### `serialize()`

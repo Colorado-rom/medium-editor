@@ -556,6 +556,7 @@ View the [MediumEditor Object API documentation](API.md) on the Wiki for details
 ### Helper Methods
 * __.delay(fn)__: delay any function from being executed by the amount of time passed as the `delay` option
 * __.getExtensionByName(name)__: get a reference to an extension with the specified name
+* __.resetContent(element)__: reset the content of all elements or a specific element to its value when added to the editor initially
 * __.serialize()__: returns a JSON object with elements contents
 * __.setContent(html, index)__: sets the `innerHTML` to `html` of the element at `index`
 
